@@ -1,4 +1,4 @@
-Challenge 1: Reverse a List
+//Challenge 1: Reverse a List
 
 void printListReversed(List<dynamic> myList) {
   for (var i = myList.length - 1; i >= 0; i--) {
@@ -14,8 +14,8 @@ void main() {
   printListReversed(mySampleList);
 }
 
---------------------------------------------------
-Challenge 2: Balance the Parentheses
+//--------------------------------------------------
+//Challenge 2: Balance the Parentheses
 
 bool isBalancedParentheses(String str) {
   var stack = <String>[];
@@ -50,8 +50,8 @@ void main() {
 }
 
 
---------------------------------------------------------------------
-Challenge 3: Print in Reverse
+//--------------------------------------------------------------------
+//Challenge 3: Print in Reverse
 
 class Node {
   dynamic data;
@@ -92,8 +92,8 @@ void main() {
 }
 
 
-----------------------------------------------------------
-Challenge 4: Find the Middle Node
+//----------------------------------------------------------
+//Challenge 4: Find the Middle Node
 
 class Node {
   dynamic data;
@@ -142,8 +142,8 @@ void main() {
   }
 }
 
-----------------------------------------------------------
-Challenge 5: Reverse a Linked List
+//----------------------------------------------------------
+//Challenge 5: Reverse a Linked List
 
 class Node {
   dynamic data;
@@ -202,8 +202,8 @@ void main() {
 }
 
 
----------------------------------------------------
-Challenge 6: Remove All Occurrences
+//---------------------------------------------------
+//Challenge 6: Remove All Occurrences
 class Node {
   dynamic data;
   Node? next;
